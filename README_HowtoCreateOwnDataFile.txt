@@ -11,8 +11,8 @@ To create own data file with 10 folds and run mainProgram, you can use the follo
 10. Create directory Datasets and copy mydata.mat file to Datasets
 11. Run program CVpartition_data program by typing CVpartition_data(10) in Matlab's command window
 12. Your mydata directory with 10 folds data will be created under Data directory
-13. Open mainProgram.m and add following line Problem = {'mydata'}; and comment out any existing lines with Problem=; 
-14. Run the mainProgram.m file by typing mainprogram in Matlab's command window
+13. Open mainProgram.m and add following line Problem = {'mydata'}; and comment out any existing lines with Problem=; Save modified file
+14. Run the mainProgram.m file by typing mainProgram in Matlab's command window
 15. The results will be saved in results.csv file 
 
 Note: The code automatically normalizes the data using min max normalization
