@@ -2,7 +2,7 @@ function CVpartition_data(numOfFolds)
 cd 'Datasets' 
 Problem = dir('*.mat')';
 cd ..
-path=[pwd, filesep, 'DTE'];
+path=[pwd, filesep, 'Data'];
 mkdir(path);
 def.MaxLayer=numOfFolds;
 for p=1: length(Problem)
