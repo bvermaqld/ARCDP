@@ -6,7 +6,7 @@ optimized_Accuracy = [];
 
 %% ITERATE OVER THE NUMBER OF FOLDS
 for fold=1:10
-    data=load([pwd,filesep,'DTE',filesep,p_name,filesep,p_name,'-CV-tr-', num2str(fold)]);
+    data=load([pwd,filesep,'Data',filesep,p_name,filesep,p_name,'-CV-tr-', num2str(fold)]);
     X=data.dtrX; Y=data.dtrY;
     data = [X Y];
     classifierIndex = 1;
